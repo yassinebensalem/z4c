@@ -1,5 +1,5 @@
 {
-  "name": "zone4code-component",
+  "name": "zone4code-components",
   "version": "1.0.0",
   "main": "build/index.js",
   "module": "build/index.esm.js",
@@ -7,7 +7,7 @@
     "build"
   ],
   "types": "build/index.d.ts",
-  "description": "Zone4Code component library using Rollup, TypeScript, Sass and Storybook",
+  "description": "Zone4Code components library using Rollup, TypeScript, Sass and Storybook",
   "scripts": {
     "build": "rollup -c",
     "test": "jest",
@@ -19,11 +19,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zone-4code/zone4code-component.git"
+    "url": "git+https://github.com/zone-4code/zone4code-components.git"
   },
   "keywords": [
     "React",
-    "Component",
+    "components",
     "Library",
     "Rollup",
     "Typescript",
@@ -33,9 +33,9 @@
   "author": "Jobran Amairi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zone-4code/zone4code-component.git/issues"
+    "url": "https://github.com/zone-4code/zone4code-components.git/issues"
   },
-  "homepage": "https://github.com/zone-4code/zone4code-component.git#readme",
+  "homepage": "https://github.com/zone-4code/zone4code-components.git#readme",
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
