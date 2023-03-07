@@ -10,21 +10,21 @@ const packageJson = require("./package.json");
 export default {
   input: "src/index.ts",
   output: [
-    {
+    /*{
       file: packageJson.main,
       format: "cjs",
       sourcemap: true
-    },
+    },*/
     {
       file: packageJson.module,
       format: "esm",
-      sourcemap: true
-    }
+      sourcemap: true,
+    },
   ],
   plugins: [
     peerDepsExternal(),
     resolve({
-      browser: true
+      browser: true,
     }),
     commonjs(),
     typescript({ useTsconfigDeclarationDir: true }),
@@ -34,9 +34,9 @@ export default {
         {
           src: "src/index.css",
           dest: "build",
-          rename: "index.css"
-        }
-      ]
-    })
-  ]
+          rename: "index.css",
+        },
+      ],
+    }),
+  ],
 };

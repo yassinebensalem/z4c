@@ -1,7 +1,6 @@
 {
   "name": "zone4code-components",
   "version": "1.0.0",
-  "main": "build/index.js",
   "module": "build/index.esm.js",
   "files": [
     "build"

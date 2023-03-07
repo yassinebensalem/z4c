@@ -2,7 +2,7 @@ import React from "react";
 import TestComponent from "./TestComponent";
 
 export default {
-  title: "TestComponent"
+  title: "TestComponent",
 };
 
 export const WithText = () => (
@@ -17,7 +17,7 @@ export const WithButtons = () => (
     heading="I have a button"
     content={
       <div>
-        <button onClick={() => alert("You clicked me!")}>Click me</button>
+        <button onClick={() => alert("You clicked me now!")}>Click me</button>
       </div>
     }
   />

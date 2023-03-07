@@ -6,6 +6,6 @@ export default {
   title: "Button",
 };
 
-export const WithBar = () => <Button foo="passv1" />;
+export const WithBar = () => <Button foo="passv1113333" />;
 
-export const WithBaz = () => <Button foo="pass2" />;
+export const WithBaz = () => <Button foo="passv2" />;
