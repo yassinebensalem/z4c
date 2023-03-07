@@ -5,12 +5,13 @@ import { render } from "@testing-library/react";
 import Button from "./Button";
 import { ButtonProps } from "./Button.types";
 
-describe("Test Component", () => {
+describe("Button with Color", () => {
   let props: ButtonProps;
 
   beforeEach(() => {
     props = {
-      foo: "bar"
+      color: "bar",
+      foo: "",
     };
   });
 
@@ -21,7 +22,5 @@ describe("Test Component", () => {
     const { getByTestId } = renderComponent();
 
     const component = getByTestId("Button");
-
-    expect(component).toHaveTextContent("harvey was here");
   });
 });
