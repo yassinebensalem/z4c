@@ -3,9 +3,9 @@ import React from "react";
 import Button from "./Button";
 
 export default {
-    title: "Button"
+  title: "Button",
 };
 
-export const WithBar = () => <Button foo="bar" />;
+export const WithBar = () => <Button foo="passv1" />;
 
-export const WithBaz = () => <Button foo="baz" />;
+export const WithBaz = () => <Button foo="pass2" />;
