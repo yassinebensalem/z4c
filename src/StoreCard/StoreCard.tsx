@@ -7,11 +7,11 @@ import './Store.css';
 const Store: React.FC<StoreCardProps> = ({ image, title, starIcon, rating }) => {
   return (
     <div className="store">
-      <img src={image} alt={title} />
+      <img className="store-image" src={image} alt={title} />
       <div className="store-title">
         <h2>{title}</h2>
         <div className="store-rating">
-        <p>{rating} <Icon icon="material-symbols:star" /> </p>
+        <p>{rating} <Icon icon="material-symbols:star"/> </p>
         </div> 
       </div>
     </div>
