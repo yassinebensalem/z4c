@@ -1,0 +1,7 @@
+/* // Generated with util/create-component.js */
+.foo-bar {
+  color: var(--harvey-green);
+}
+.pageTitle{
+  padding-top: 5px;
+}
