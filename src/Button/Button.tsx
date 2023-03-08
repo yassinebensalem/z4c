@@ -1,6 +1,7 @@
 // Generated with util/create-component.js
 import React from "react";
 import Button from "@mui/material/Button";
+import { Icon } from "@iconify/react";
 
 import { styled } from "@mui/material/styles";
 
@@ -20,6 +21,7 @@ const CustomButton = styled(Button)((props: Props) => ({
 const ButtonCustom: React.FC<ButtonProps> = ({ foo, color }) => (
   <CustomButton myColor={color} className="foo-bar">
     {foo}
+    <Icon icon="ph:airplane-fill" />
   </CustomButton>
 );
 
