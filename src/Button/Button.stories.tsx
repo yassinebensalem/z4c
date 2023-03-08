@@ -1,27 +1,11 @@
-import React from 'react';
-import { Story, Meta } from '@storybook/react';
-import Button from './Button';
-import { ButtonProps } from './Button.types';
+// Generated with util/create-component.js
+import React from "react";
+import Button from "./Button";
 
 export default {
-  title: 'Button',
-  component: Button,
-} as Meta;
-
-const Template: Story<ButtonProps> = (args) => <Button {...args} />;
-
-export const Primary = Template.bind({});
-Primary.args = {
-  text: 'Click me!',
-  type: 'primary',
-  color: '#ffffff',
-  backgroundColor: '#1ea7fd',
+  title: "Button",
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-  text: 'Click me too!',
-  type: 'secondary',
-  color: '#ffffff',
-  backgroundColor: '#1e90ff',
-};
+export const ButtonRed = () => <Button color="red" foo="passv1113333" />;
+
+export const ButtonGreen = () => <Button color="green" foo="passv2" />;

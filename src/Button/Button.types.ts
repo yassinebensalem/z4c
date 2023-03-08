@@ -1,11 +1,5 @@
 // Generated with util/create-component.js
-export type ButtonProps = {
-    text: string;
-    type?: 'primary' | 'secondary';
-    color?: string;
-    backgroundColor?: string;
-      };
-
-
-
-  
+export interface ButtonProps {
+    foo: string;
+    color: string;
+}
