@@ -6,7 +6,7 @@ import stores from './stores.json';
 
 
 export default {
-  title: 'Store',
+  title: 'StoreCard',
   component: Store,
 } as Meta;
 

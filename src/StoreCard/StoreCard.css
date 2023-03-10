@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 7%;
-  margin: 5px;
-  padding: 10px;
+  width: 110px;
+  padding: 5px;
+
 }
 
 .store-image {
@@ -15,14 +15,16 @@
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
-.store-title h2 {
+.store-title{
   font-size: 14px;
-  margin: 5px 10px 0px 0px;
+  width:80px;
+  margin:5px 5px 0 0;
   text-align: left;
 }
 
-.store-rating p {
+.store-rating{
+  width:50px;
   font-size: 12px;
-  margin: 0;
+  margin:0 30px 0 0;
   text-align: left;
 }
