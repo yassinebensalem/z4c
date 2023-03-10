@@ -9,7 +9,7 @@ const TestComponent: React.FC<TestComponentProps> = ({ heading, content }) => (
     <h1 data-testid="test-component__heading" className="heading">
       {heading}
     </h1>
-    <div data-testid="test-component__content">{content}</div>
+    <div data-testid="test-component__content ">{content}</div>
   </div>
 );
 
