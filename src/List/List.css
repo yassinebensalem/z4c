@@ -1,0 +1,8 @@
+/* //Generated with util/create-component.js */
+.MenuItem{
+  color: black;
+  opacity: 77%;
+}
+.MenuItem:hover{
+ background-color: rgba(234, 228, 228, 0.566);
+}
