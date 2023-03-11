@@ -6,7 +6,7 @@
     "build"
   ],
   "types": "build/index.d.ts",
-  "description": "Zone4Code components library using Rollup, TypeScript, Sass and Storybook ",
+  "description": "Zone4Code components library using Rollup, TypeScript, Sass and Storybook",
   "scripts": {
     "build": "rollup -c",
     "test": "jest",
